@@ -1,0 +1,84 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 600px;
+    margin: 0px auto;
+    background-color: rgb(206, 190, 170);
+    padding: 1em;
+
+}
+body {
+    background-image: url(../img/tarefas.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin-top: 0.5em;
+    padding: 16px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 3.5em;
+}
+form {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+    
+}
+form input {
+    padding: 16px;
+    border: none;
+    width: 80%;
+}
+form button {
+    width: 20%;
+    border: none;
+    background-color: rgb(97, 50, 50);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: rgb(70, 46, 46);
+}
+form button:active {
+    background-color: rgb(68, 53, 53);
+}
+h2 {
+    margin-top: 1em;
+    font-size: 2em;
+}
+section {
+    font-family: 'Dancing Script', cursive;
+    
+}
+section ul {
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+section ul li {
+    font-size: 1.2em;
+}
+section ul li:hover {
+    background-color: bisque;
+}
+
+footer {
+    bottom: 0px;
+    color: rgb(54, 46, 46);
+    width: 100%;
+    position: absolute;
+    
+}
+footer p {
+    text-align: center;
+    font-size: 1.2em;
+}
